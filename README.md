@@ -2,7 +2,7 @@
 The DialMyCalls API
 
 
-For more information, please visit [https://www.dialmycalls.com/contactus.html](https://www.dialmycalls.com/contactus.html)
+For more information, please visit [https://www.dialmycalls.com](https://www.dialmycalls.com)
 
 ## Requirements
 
