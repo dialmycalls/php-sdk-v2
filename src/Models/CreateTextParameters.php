@@ -274,7 +274,7 @@ class CreateTextParameters implements ArrayAccess
 
     /**
      * Sets sendAt
-     * @param string $sendAt When the broadcast should be sent.
+     * @param string $sendAt When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000)
      * @return $this
      */
     public function setSendAt($sendAt)
