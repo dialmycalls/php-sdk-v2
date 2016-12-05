@@ -56,6 +56,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\Accounts();
 $createAccessAccountParameters = new \DialMyCalls\Models\CreateAccessAccountParameters(); // \DialMyCalls\Models\CreateAccessAccountParameters | Request body
@@ -182,6 +185,10 @@ Class | Method | HTTP request | Description
 - **Type**: API key
 - **API key parameter name**: X-Auth-ApiKey
 - **Location**: HTTP header
+
+## basicAuth
+
+- **Type**: HTTP basic authentication
 
 
 ## Author

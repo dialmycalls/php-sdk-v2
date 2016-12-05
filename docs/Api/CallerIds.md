@@ -27,6 +27,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $createCallerIdParameters = new \DialMyCalls\Models\CreateCallerIdParameters(); // \DialMyCalls\Models\CreateCallerIdParameters | Request body
@@ -52,7 +55,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -75,6 +78,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $createUnverifiedCallerIdParameters = new \DialMyCalls\Models\CreateUnverifiedCallerIdParameters(); // \DialMyCalls\Models\CreateUnverifiedCallerIdParameters | Request body
@@ -100,7 +106,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -123,6 +129,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $calleridId = "calleridId_example"; // string | CalleridId
@@ -148,7 +157,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -171,6 +180,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $calleridId = "calleridId_example"; // string | CalleridId
@@ -196,7 +208,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -219,6 +231,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $range = "range_example"; // string | Range (ie \"records=201-300\") of callerids requested
@@ -244,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -267,6 +282,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $updateCallerIdByIdParameters = new \DialMyCalls\Models\UpdateCallerIdByIdParameters(); // \DialMyCalls\Models\UpdateCallerIdByIdParameters | Request body
@@ -294,7 +312,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
@@ -317,6 +335,9 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: api_key
 DialMyCalls\Configuration::getDefaultConfiguration()->setApiKey('X-Auth-ApiKey', 'YOUR_API_KEY');
+// Configure HTTP basic authorization: basicAuth
+DialMyCalls\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
+DialMyCalls\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new \DialMyCalls\Api\CallerIds();
 $verifyCallerIdByIdParameters = new \DialMyCalls\Models\VerifyCallerIdByIdParameters(); // \DialMyCalls\Models\VerifyCallerIdByIdParameters | Request body
@@ -344,7 +365,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[api_key](../../README.md#api_key)
+[api_key](../../README.md#api_key), [basicAuth](../../README.md#basicAuth)
 
 ### HTTP request headers
 
